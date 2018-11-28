@@ -26,11 +26,9 @@ additional context to the network and result in faster and even fuller learning 
 was intuitive to use it. This is then followed by a Dense layer with softmax activation.
 ## Model Summary:
 
-Layer (type)  Output Shape  Param
-=================================================================
-bidirectional_2   (Bidirection (None, 1, 20)      4640
-_________________________________________________________________
-dense_2 (Dense)                 (None, 1, 3)       63
+
+![model summary](https://imageresize.org/view/32fb6b0b-8150-490e-b4b4-4067e3c4dd8a)
+
 ## Results & Interpretation: 
 There a 4 different merge modes that can be used to combine the
 outcomes of the Bidirectional LSTM layers.They are concatenation (default), multiplication,
