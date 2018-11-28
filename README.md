@@ -27,7 +27,7 @@ was intuitive to use it. This is then followed by a Dense layer with softmax act
 ## Model Summary:
 
 
-![model summary](https://u.imageresize.org/v2/32fb6b0b-8150-490e-b4b4-4067e3c4dd8a.png)
+![model summary](/modelsummary.png)
 
 ## Results & Interpretation: 
 There a 4 different merge modes that can be used to combine the
