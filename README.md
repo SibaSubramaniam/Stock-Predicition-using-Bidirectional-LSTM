@@ -25,9 +25,8 @@ the input sequence as-is and the second on a reversed copy of the input sequence
 additional context to the network and result in faster and even fuller learning on the problem. So it
 was intuitive to use it. This is then followed by a Dense layer with softmax activation.
 ## Model Summary:
-Layer (type)
-Output Shape
-Param #
+
+Layer (type)  Output Shape  Param
 =================================================================
 bidirectional_2 (Bidirection (None, 1, 20)
 4640
