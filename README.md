@@ -28,12 +28,9 @@ was intuitive to use it. This is then followed by a Dense layer with softmax act
 
 Layer (type)  Output Shape  Param
 =================================================================
-bidirectional_2 (Bidirection (None, 1, 20)
-4640
+bidirectional_2   (Bidirection (None, 1, 20)      4640
 _________________________________________________________________
-dense_2 (Dense)
-(None, 1, 3)
-63
+dense_2 (Dense)                 (None, 1, 3)       63
 ## Results & Interpretation: 
 There a 4 different merge modes that can be used to combine the
 outcomes of the Bidirectional LSTM layers.They are concatenation (default), multiplication,
